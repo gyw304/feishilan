@@ -1,0 +1,53 @@
+<view class="container">
+  <form bindsubmit="formSubmit">
+    <view class="section">
+      <view class="hd">姓名(中文)</view>
+      <input placeholder="姓名" name="uname" value="{{reg_data.uname}}"/>
+    </view>
+    <!-- <view class="section">
+      <radio-group class="radio-group" bindchange="radioChange" name="sex">
+        <label class="radio">
+          <radio value="男" checked="checked" />男
+        </label>
+        <label class="radio">
+          <radio value="女" />女
+        </label>
+      </radio-group>
+    </view> -->
+    <view class="section">
+      <view class="hd">手机号</view>
+      <input placeholder="手机号" name="tel" type="number" value="{{reg_data.tel}}"/>
+    </view>
+
+    <!-- <view class="section">
+    <view class="hd">公司所属地区</view>
+      <input placeholder="公司所属地区" name="district" value="{{reg_data.district}}"/>
+    </view> -->
+    
+    <view class="section">
+    <view class="hd">部门</view>
+      <input placeholder="部门" name="department" value="{{reg_data.department}}"/>
+    </view>
+
+    <view class="section">
+    <view class="hd">公司邮箱</view>
+      <input placeholder="公司邮箱" name="cemail" value="{{reg_data.cemail}}"/>
+    </view>
+
+    <view class="section">
+    <view class="hd">收货地址</view>
+      <input placeholder="收货地址" name="address" value="{{reg_data.address}}"/>
+    </view>
+
+    <!-- <view class="section">
+      <input placeholder="联系地址" name="address"/>
+    </view> -->
+    
+    <button class="btn blue_btn" form-type="submit">{{button_text}}</button>
+  </form>
+
+<view class="tip"> 注：小程序所有活动仅限荷兰皇家菲仕兰（中国）员工参与，活动最终解释权归荷兰皇家菲仕兰（中国）所有</view>
+
+</view>
+
+

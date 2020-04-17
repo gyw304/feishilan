@@ -1,0 +1,58 @@
+/* pages/crm/crm.wxss */
+page{
+  background-color: #ffffff;
+}
+
+.section .hd{
+  font-size:24rpx;
+  color:#999999;
+  margin-left:20rpx;
+}
+
+.section input{
+
+  height:80rpx;
+  background-color:transparent;
+  border:none;
+  border-bottom:1px solid #dcdee2;
+  font-size:30rpx;
+  padding:0 20rpx 0 20rpx;
+  margin:0 20rpx 20rpx 20rpx;
+
+
+
+}
+
+.radio-group{
+  font-size:30rpx;
+  padding-left:20rpx;
+}
+
+.radio-group radio{
+  transform:scale(0.7);
+}
+
+button{
+  margin:20rpx;
+  background-color:#07C160;
+  color:#fff
+}
+
+.tip{
+  width:540rpx;
+  text-align: center;
+  font-size:22rpx;
+  color:#3d8f85;
+  padding-bottom:33rpx;
+  margin:20rpx auto;
+}
+
+.btn{
+  height:90rpx;
+  width:480rpx;
+  margin:30rpx auto
+}
+
+.btn::after{
+  border:none
+}

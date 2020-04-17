@@ -1,0 +1,77 @@
+/* pages/ciniu/components/paihang/paihang.wxss */
+
+@import "../../../../app.wxss";
+
+
+.paihang-content .item{
+ 
+  display: flex;
+  align-items: center;
+  margin-bottom:20rpx;
+
+  margin-left:20rpx;
+  margin-right:20rpx;
+  
+ 
+}
+
+
+.paihang-content .item .rank{
+  width:30rpx;
+  height:30rpx;
+  border-radius: 100%;
+  background-color: #d0d0d0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color:#fff;
+  font-size:18rpx;
+  margin-right:20rpx;
+}
+
+.paihang-content .item:first-child .rank{
+  background-color: #ffc612
+}
+
+.paihang-content .item:nth-child(2) .rank{
+  background-color: #c7dde0
+}
+
+.paihang-content .item:nth-child(3) .rank{
+  background-color: #d9b1a7
+}
+
+
+
+
+.paihang-content .item .item-content{
+   background-color: #faf6f6;
+   height:80rpx;
+   border-radius: 10rpx;
+    display: flex;
+  align-items: center;
+  flex:1;
+  justify-content: space-between;
+  padding:0 25rpx
+}
+
+.paihang-content .item .item-content .name{
+  font-size:24rpx;
+  color:#87421a;
+  
+}
+
+.paihang-content .item .item-content .loveValue{
+font-size:24rpx;
+color:#fff;
+}
+
+.zan{
+  background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAAVCAYAAACpF6WWAAABFUlEQVQ4ja3TTytEURzG8c9ME7FTikLKK5BXIApZKBsvwMqCsvYa7GyUkixmgYWVlZWEhb2FsrNBWfmTMDp11TG5987cuc/qnOfX8z2/czq/SmN0SI5GsINpfGAX6/hKi1VzgBUcYxY19GIVa1mhPGjobuIff6ET6FyK310UGq6+mFK7KQoNwLGU2mUR6DC2MnLXWdBatB5AP6awgcGUzCvu0Rd573iLoT04wnzW6ZHCt3ps8r5xhqVQC9dfaQOYpsCZxL5kM94hMNYMuqpN79qpnsMo533+dnWihYlqV/WyoQ84LRt6gM+yofXfRVnQO1zF0KcSoJtoxNDD2CigPWzHuQA9T2b2NpnhVvSCiyS3/Kcp/ACtKSy2L8peuwAAAABJRU5ErkJggg==');
+  background-position: left center;
+  background-size: 21rpx 21rpx;
+  background-repeat: no-repeat;
+  font-size:20rpx;
+  color:#ff1f1b;
+  padding-left:30rpx;
+}

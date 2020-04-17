@@ -1,0 +1,28 @@
+<view class="container">
+  <view class="row">
+    <view class="hd">我的爱心能量</view>
+    <view class="aixin">{{inf.love_num}}</view>
+  </view>
+
+  <view class="row">
+    <view class="hd">爱心能量记录</view>
+    <scroll-view scroll-y style="width:600rpx;height:600rpx;">
+  <view class="xinyuanlist-content">
+
+     
+
+     <view class="items">
+      <view class="item" wx:for="{{xinyuanlist}}">
+        <view class="ico"></view>
+        <view class="item_content"><text class="name">{{item.info}}{{item.info_type == 1? '+':'-'}}{{item.num}}</text><text class="date">{{item.add_date}}</text></view>
+      </view>
+
+    </view>
+
+    
+  </view>
+</scroll-view>
+
+  </view>
+
+</view>

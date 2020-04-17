@@ -1,0 +1,30 @@
+
+<wxs module="filter" src="./fromCharCod.wxs"></wxs>
+<view class="zhishi_content" hidden="{{modalHidden}}">
+
+  <view class="question_box" style="height:100%" wx:if="{{question.is_right == 0}}">
+    <view class="question">{{question.title}}</view>
+
+    <view>
+      <view class="answer {{current == index ? 'active':''}}" wx:for="{{question.qes_arr}}" data-index="{{index}}" data-select="{{filter.numberToCharCode(index)}}" bindtap="select">{{filter.numberToCharCode(index)}}.{{item}}</view>
+    
+
+    </view>
+
+    <view class="sub_btn" bindtap="sub">确定</view>
+  </view>
+
+
+  <view class="question_box" style="height:100%" v-else>
+    <view class="question">{{question.title}}</view>
+
+    <view>
+
+      <view class="answer {{question.is_right == 1 ? filter.numberToCharCode(index) == question.answer ? 'right':'': filter.numberToCharCode(index) == question.answer ? '':'error'}}" wx:for="{{question.qes_arr}}" data-index="{{index}}">{{filter.numberToCharCode(index)}}.{{item}}</view>
+    
+    </view>
+
+   
+  </view>
+
+</view>

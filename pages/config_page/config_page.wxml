@@ -1,0 +1,13 @@
+<view class="container">
+  <view class="plane">
+     <view class="hd">关于我们</view>
+     <view class="bd"><rich-text nodes="{{content.about}}"></rich-text></view>
+  </view>
+  <view class="plane">
+     <view class="hd">联系我们</view>
+     <view class="bd"><rich-text nodes="{{content.contact}}"></rich-text>
+</view>
+  </view>
+
+
+</view>

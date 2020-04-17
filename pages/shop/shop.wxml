@@ -1,0 +1,9 @@
+<view class="goods">
+  <view class="item" wx:for="{{goods}}">
+
+    <navigator url="/pages/shop_detail/shop_detail?id={{item.gid}}"><image class="item_img" mode="aspectFill" src="{{item.cover}}" ></image></navigator>
+
+    
+    <view class="price"><text>{{item.num}}</text> 爱心能量</view>
+  </view>
+</view>

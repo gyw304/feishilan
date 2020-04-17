@@ -1,0 +1,67 @@
+/* pages/ciniu/components/paihang/paihang.wxss */
+
+@import "../../../../app.wxss";
+
+
+.paihang-content .item{
+ 
+  display: flex;
+  align-items: center;
+  margin-bottom:20rpx;
+
+  margin-left:20rpx;
+  margin-right:20rpx;
+  
+ 
+}
+
+
+.paihang-content .item .rank{
+  width:30rpx;
+  height:30rpx;
+  border-radius: 100%;
+  background-color: #d0d0d0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color:#fff;
+  font-size:18rpx;
+  margin-right:20rpx;
+}
+
+.paihang-content .item:first-child .rank{
+  background-color: #ffc612
+}
+
+.paihang-content .item:nth-child(2) .rank{
+  background-color: #c7dde0
+}
+
+.paihang-content .item:nth-child(3) .rank{
+  background-color: #d9b1a7
+}
+
+
+
+
+.paihang-content .item .item-content{
+   background-color: #faf6f6;
+   height:80rpx;
+   border-radius: 10rpx;
+    display: flex;
+  align-items: center;
+  flex:1;
+  justify-content: space-between;
+  padding:0 25rpx
+}
+
+.paihang-content .item .item-content .name{
+  font-size:24rpx;
+  color:#87421a;
+  
+}
+
+.paihang-content .item .item-content .loveValue{
+font-size:24rpx;
+color:#fff;
+}

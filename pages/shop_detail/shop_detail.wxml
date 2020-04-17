@@ -1,0 +1,54 @@
+<view class="detail">
+
+<image class="item_img" mode="aspectFill" src="{{good_detail.cover}}"></image>
+<view class="name">{{good_detail.title}}</view>
+<view class="price"><text>{{good_detail.num}}</text> 爱心能量</view>
+<view class="introduce">
+  <view>产品介绍</view>
+  <rich-text nodes="{{good_detail.intro}}"></rich-text>
+</view>
+
+<view class="blue_btn" bindtap="duihuan">立即兑换</view>
+
+
+<view hidden="{{!show_way}}">
+
+  <view class="mask" bindtap="duihuan"></view>
+
+  <view class="plane">
+
+    <view class="way">
+    <picker bindchange="bindPickerChange" value="{{index}}" range="{{good_detail.point_address}}">
+    <view class="item {{current == 0 ? 'active' : ''}}" data-index="0" bindtap="select">定点领取</view>
+  </picker>
+      
+
+      <view class="item {{current == 1 ? 'active' : ''}}" data-index="1" bindtap="select">快递邮寄</view>
+    
+    </view>
+
+    <view class="blue_btn" bindtap="exchange">提交</view>
+  </view>
+
+</view>
+
+
+<view hidden="{{!show_success}}">
+
+  <view class="mask" bindtap="hide_success"></view>
+  <view class="plane_success">
+    <image class="ico" src="../../image/ico_success.png"></image>
+    <view class="h2">兑换成功</view>
+    <view class="h3">您的能量兑换信息，我们已收到！工作人员将会在5个工作日内尽快和您联系确认~请耐心等待哟~</view>
+  
+  </view>
+
+  
+
+</view>
+
+
+</view>
+
+
+

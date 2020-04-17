@@ -1,0 +1,16 @@
+
+var filter = {
+  numberToCharCode: function (value) {
+
+    var strArr = ["A","B","C","D","E"]
+
+    for (var i = 0; i < strArr.length; ++i) {
+      return strArr[value]
+    }
+
+  }
+}
+// 导出对外暴露的属性
+module.exports = {
+  numberToCharCode: filter.numberToCharCode
+}

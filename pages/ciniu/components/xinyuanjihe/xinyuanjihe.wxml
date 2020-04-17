@@ -1,0 +1,33 @@
+<scroll-view scroll-y style="height:100%" hidden="{{modalHidden}}">
+  <view class="xinyuanjihe-content">
+
+   <view class="item" wx:for="{{xinyuanjihe}}" data-id="{{item.id}}" data-index="{{index}}" bindtap="zan">
+    <image class="item-pic" src="{{item.img_url}}" mode="aspectFill"></image>
+    <view class="text">{{item.content}}</view>
+    <view class="ft">
+      <view class="name">{{item.username == null ? '匿名':item.username}}</view>
+      <view class="num">{{item.zan_num}}</view>
+    </view>
+   </view>
+
+    <!-- <view class="item">
+    <image class="item-pic" src="http://weixin.zxhong.com/friesland/resource/uploads/2019-08-21/5d5caef16dea3.jpg" mode="aspectFill"></image>
+    <view class="text">心愿的具体文心愿的具体文</view>
+    <view class="ft">
+      <view class="name">王大拿</view>
+      <view class="num">20</view>
+    </view>
+   </view>
+
+   <view class="item">
+    <image class="item-pic" src="http://weixin.zxhong.com/friesland/resource/uploads/2019-08-21/5d5caef16dea3.jpg" mode="aspectFill"></image>
+    <view class="text">心愿的具体文心愿的具体文</view>
+    <view class="ft">
+      <view class="name">王大拿</view>
+      <view class="num">20</view>
+    </view>
+   </view> -->
+
+    
+  </view>
+</scroll-view>

@@ -1,0 +1,16 @@
+<scroll-view scroll-y style="height:100%" hidden="{{modalHidden}}">
+  <view class="nengliang-content">
+
+     
+
+     <view class="items">
+      <view class="item" wx:for="{{nengliang}}">
+        <view class="ico"></view>
+        <view class="item_content"><text class="name">{{item.remark}} + {{item.num}}</text><text class="date">{{item.add_date}}</text></view>
+      </view>
+
+    </view>
+
+    
+  </view>
+</scroll-view>

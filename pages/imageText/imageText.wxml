@@ -1,0 +1,4 @@
+<view class="warp">
+  <image src="{{src}}" mode="widthFix" style="width:100%"></image>
+  <image wx:if="{{zan_btn}}" class="zan_btn" src="../../image/zan_btn.png" mode="widthFix" bindtap="zan"></image>
+</view>

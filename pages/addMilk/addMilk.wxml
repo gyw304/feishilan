@@ -1,0 +1,11 @@
+<view class="container bg">
+  <image class="banner" src="../../image/kv.jpg" mode='widthFix'></image>
+  <view class="section">
+    <image class="logo" src="../../image/logo.png" mode='widthFix'></image>
+    <view class="tip">你既能全方位地了解菲仕兰，还能构建自己的小天地，一起探索菲仕兰的不同境界吧！</view>
+  </view>
+  <view class="nav">
+    <image class="item" src="../../image/n_0.png" mode='widthFix' data-url="../upload_pic/upload_pic?pic_type=3" bindtap="jumppage"></image>
+    <image class="item" src="../../image/n_1.png" mode='widthFix' data-url="../upload_pic/upload_pic?pic_type=2" bindtap="jumppage"></image>
+  </view>
+</view>

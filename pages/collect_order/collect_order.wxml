@@ -1,0 +1,7 @@
+<view class="notice-list">
+  <view class="notices" wx:for="{{notices}}">
+    <view class="notice-title-sys">{{item.content}}</view>
+    <view class="notice-date">{{item.add_date}}</view>
+  </view>
+</view>
+

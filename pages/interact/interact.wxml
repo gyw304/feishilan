@@ -1,0 +1,84 @@
+<view class="user-header">
+  <view class="userAvatarUrl">
+    <open-data type="userAvatarUrl"></open-data>
+  </view>
+  <view class="userNickName">
+    <open-data type="userNickName"></open-data>
+  </view>
+</view>
+
+<view class="plane">
+  <navigator class="item" url="/pages/crm/crm?type=change">
+    <view class="name"><image class="ico" src="../../image/ico_1.png"></image><view>个人资料</view></view>
+    <image class="arr" src="../../image/arr.png"></image>
+  </navigator>
+  <navigator class="item" url="/pages/my_xinyuan/my_xinyuan">
+    <view class="name"><image class="ico" src="../../image/ico_2.png"></image><view>我的心愿</view></view>
+    <image class="arr" src="../../image/arr.png"></image>
+  </navigator>
+  <navigator class="item" url="/pages/my_aixin/my_aixin">
+    <view class="name"><image class="ico" src="../../image/ico_3.png"></image><view>我的爱心能量</view></view>
+    <image class="arr" src="../../image/arr.png"></image>
+  </navigator>
+  <navigator class="item" url="/pages/recruit/recruit">
+    <view class="name"><image class="ico" src="../../image/ico_4.png"></image><view>征集</view></view>
+    <image class="arr" src="../../image/arr.png"></image>
+  </navigator>
+  <navigator class="item" url="/pages/config_page/config_page">
+    <view class="name"><image class="ico" src="../../image/ico_5.png"></image><view>设置</view></view>
+    <image class="arr" src="../../image/arr.png"></image>
+  </navigator>
+</view>
+
+
+<!-- <view class="section inf">
+
+
+  <view class="inf_num">
+    <view class="num">{{inf.login_num}}</view>
+    <view class="tt">登录</view>
+  </view>
+  <view class="line"></view>
+
+  <navigator class="inf_num" url="/pages/my_aixin/my_aixin">
+
+    <view class="num">{{inf.love_num}}</view>
+    <view class="tt">爱心值</view>
+
+
+  </navigator>
+
+
+  <view class="line"></view>
+  <view class="inf_num">
+    <view class="num">{{inf.collect_num}}</view>
+    <view class="tt">浏览量</view>
+  </view>
+
+
+</view> -->
+
+
+
+<!-- <view class="section action-list">
+  <view class="action" data-url="../collect/collect" bindtap="gopage">
+    <view class="label">
+      <image class="int_ico" src="../../image/ico_shoucang.png"></image>收藏</view>
+    <image class="arr" src="../../image/arr.png"></image>
+  </view>
+  <view class="action" data-url="../notice/notice" bindtap="gopage">
+    <view class="label">
+      <image class="int_ico" src="../../image/ico_notice.png"></image>公告</view>
+    <image class="arr" src="../../image/arr.png"></image>
+  </view>
+  <view class="action" data-url="../recruit/recruit" bindtap="gopage">
+    <view class="label">
+      <image class="int_ico" src="../../image/ico_shouji.png"></image>征集</view>
+    <image class="arr" src="../../image/arr.png"></image>
+  </view>
+  <view class="action" data-url="../feedback/feedback" bindtap="gopage">
+    <view class="label">
+      <image class="int_ico" src="../../image/ico_fankui.png"></image>我有疑问</view>
+    <image class="arr" src="../../image/arr.png"></image>
+  </view>
+</view> -->

@@ -1,0 +1,12 @@
+<!--pages/ciniu/components/paihang/paihang.wxml-->
+
+<scroll-view scroll-y style="height:100%" hidden="{{modalHidden}}">
+  <view class="paihang-content">
+
+    <view class="item" wx:for="{{xinyuan_rank}}">
+      <view class="rank">{{index+1}}</view><view class="item-content"><view class="name">{{item.content == '' ? '每天好心情！' : item.content}} -- {{item.username == null ? '匿名':item.username}}</view><view class="zan">{{item.zan_num}}</view></view>
+    </view>
+
+    
+  </view>
+</scroll-view>

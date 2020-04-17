@@ -1,0 +1,131 @@
+{
+	"description": "项目配置文件",
+	"packOptions": {
+		"ignore": []
+	},
+	"setting": {
+		"urlCheck": false,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true,
+		"autoAudits": false,
+		"checkInvalidKey": true,
+		"checkSiteMap": true,
+		"uploadWithSourceMap": true,
+		"babelSetting": {
+			"ignore": [],
+			"disablePlugins": [],
+			"outputPath": ""
+		}
+	},
+	"compileType": "miniprogram",
+	"libVersion": "2.6.6",
+	"appid": "wxc3e513bcce4ff94e",
+	"projectname": "%E8%8F%B2%E4%BB%95%E5%85%B02.0",
+	"debugOptions": {
+		"hidedInDevtools": []
+	},
+	"isGameTourist": false,
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"currentL": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": 10,
+			"list": [
+				{
+					"id": -1,
+					"name": "pages/shop/shop",
+					"pathName": "pages/shop/shop",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/shop_detail/shop_detail",
+					"pathName": "pages/shop_detail/shop_detail",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/ciniu/index/index",
+					"pathName": "pages/ciniu/index/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/crm/crm",
+					"pathName": "pages/crm/crm",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/shop_detail/shop_detail",
+					"pathName": "pages/shop_detail/shop_detail",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/index/index",
+					"pathName": "pages/index/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/my_aixin/my_aixin",
+					"pathName": "pages/my_aixin/my_aixin",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/interact/interact",
+					"pathName": "pages/interact/interact",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/draw/draw",
+					"pathName": "pages/draw/draw",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/config_page/config_page",
+					"pathName": "pages/config_page/config_page",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/yuantan_video/yuantan_video",
+					"pathName": "pages/yuantan_video/yuantan_video",
+					"scene": null
+				}
+			]
+		}
+	}
+}

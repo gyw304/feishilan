@@ -1,0 +1,44 @@
+
+@import "/app.wxss";
+
+.xinyuan_content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height:100%
+}
+
+.xinyuan_textarea{
+  font-size:24rpx;
+  color:#87421a;
+  background-color: #faf6f6;
+  width:480rpx;
+  padding:20rpx;
+  border-radius: 10rpx;
+  z-index: 0
+}
+
+.img{
+  width:520rpx;
+  height:225rpx;
+  border-radius: 10rpx;
+  margin:30rpx 0
+}
+
+.fabu{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width:520rpx;
+}
+
+.fabu .b{
+  font-size:24rpx;
+  color:#6bbbf5
+}
+
+.blue_btn{
+  flex:1;
+  margin:0 50rpx;
+}

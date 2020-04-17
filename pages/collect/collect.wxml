@@ -1,0 +1,13 @@
+<view class="content-list">
+  <view class="content" bindtap="go_detail" data-cid="{{item.id}}" wx:for="{{list}}">
+    <image class="content-banner" lazy-load="true" mode="aspectFill" src="{{item.src}}"></image>
+    <view class="content-bd">
+      <image class="content-headImg" src="{{item.headImg}}"></image>
+      <view>
+        <view class="content-title">{{item.title}}</view>
+        <view class="content-anchor">{{item.author}}</view>
+        <view class="content-source">{{item.source}}</view>
+      </view>
+    </view>
+  </view>
+</view>

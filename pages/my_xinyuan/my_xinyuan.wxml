@@ -1,0 +1,25 @@
+<view class="container">
+
+
+  <view class="row">
+    <view class="hd">我的心愿</view>
+    <scroll-view scroll-y style="width:600rpx;height:600rpx;">
+  <view class="xinyuanlist-content">
+
+     
+
+     <view class="items">
+      <view class="item" wx:for="{{xinyuanlist}}">
+        <view class="ico"></view>
+        <view class="item_content"><text class="name">{{item.content}}</text><text class="date">{{item.add_date}}</text></view>
+      </view>
+
+    </view>
+
+    
+  </view>
+</scroll-view>
+
+  </view>
+
+</view>

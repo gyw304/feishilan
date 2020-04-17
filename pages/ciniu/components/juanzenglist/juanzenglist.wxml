@@ -1,0 +1,20 @@
+
+
+<scroll-view scroll-y style="height:100%" hidden="{{modalHidden}}">
+  <view class="juanzenglist_content">
+
+     
+
+     <view class="items">
+      <view class="item" wx:for="{{juanzenglist}}">
+        <view class="ico"></view>
+        <view class="item_content"><text class="name">爱心捐献 + {{item.money}} 元</text><text class="date">{{item.add_date}}</text></view>
+      </view>
+
+    </view>
+
+   
+
+    
+  </view>
+</scroll-view>

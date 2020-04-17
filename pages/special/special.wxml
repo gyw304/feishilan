@@ -1,0 +1,20 @@
+<view class="container bg">
+  <image class="banner" src="../../image/kv.jpg" mode='widthFix'></image>
+  <view class="section">
+    <image class="logo" src="../../image/logo.png" mode='widthFix'></image>
+    <text class="tip">你既能全方位地了解菲仕兰，还能构建自己的小天地，一起探索菲仕兰的不同境界吧！\n 注：小程序所有活动仅限荷兰皇家菲仕兰（中国）员工参与，活动最终解释权归荷兰皇家菲仕兰（中国）所有</text>
+  </view>
+  <view class="nav">
+    <view class="row">
+      <image class="item" src="../../image/spr_nav_0.png" mode='widthFix' data-url="../imageText/imageText?id=1" bindtap="jumppage"></image>
+      <image class="item" src="../../image/spr_nav_1.png" mode='widthFix' data-url="../imageText/imageText?id=6" bindtap="jumppage"></image>
+    </view>
+    <view class="row">
+      <image class="item" src="../../image/spr_nav_2.png" mode='widthFix' data-url="../addMilk/addMilk" bindtap="jumppage"></image>
+    </view>
+    <view class="row">
+      <image class="item" src="../../image/spr_nav_3.png" mode='widthFix' data-url="../endurance/endurance" bindtap="jumppage"></image>
+      <image class="item" src="../../image/spr_nav_4.png" mode='widthFix' data-url="../imageText/imageText?id=5" bindtap="jumppage"></image>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,12 @@
+@import "/app.wxss";
+
+.juanzengmulu_content{
+  height:100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.blue_btn{
+  margin:20rpx;
+}

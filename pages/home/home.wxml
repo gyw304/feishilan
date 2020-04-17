@@ -1,0 +1,8 @@
+<view class="container bg">
+  <!-- <image class="logo" src="../../image/logo.png" mode='widthFix'></image>
+  <image class="tip" src="../../image/tip.png" mode='widthFix'></image> -->
+  <!-- <view class="home_btn" bindtap="jumppage">走进大家庭</view> -->
+
+  <image class="kp" src="{{url}}" mode="widthFix" bindload="load"></image>
+
+</view>

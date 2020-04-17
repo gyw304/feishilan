@@ -1,0 +1,20 @@
+<wxs module="util_wxs" src="../../../../utils/util.wxs"></wxs>
+
+<view class="zhongxin_content" hidden="{{modalHidden}}">
+
+  <view class="userInfo">
+      <view class='avatar'><open-data type="userAvatarUrl"></open-data></view>
+      <open-data type="userNickName" lang="zh_CN"></open-data>
+  </view>
+
+  <view class="items">
+    <navigator class="item" url="/pages/crm/crm?type=change"><text>个人资料</text></navigator>
+   
+    <view class="item" bindtap="toxinyuanlist"><text>我的心愿</text></view>
+    <view class="item" bindtap="changeNengLiang"><text>我的爱心能量</text></view>
+    
+    <navigator class="item"  url="/pages/config_page/config_page"><text>设置</text></navigator>
+
+  </view>
+
+</view>

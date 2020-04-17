@@ -1,0 +1,6 @@
+<view class="juanzengmulu_content" hidden="{{modalHidden}}">
+  
+  <view class="blue_btn" bindtap="toJuanZeng">我要捐款</view>
+  <view class="blue_btn" bindtap="toJuanZengList">我的捐款历史</view>
+
+</view>

@@ -1,0 +1,50 @@
+page{
+  font-size:36rpx;
+  background-color: #f0eff5;
+  font-family: -apple-system-font,Helvetica Neue,Helvetica,sans-serif;
+}
+
+.content{
+  background-color: #fff;
+  margin-bottom:20rpx
+}
+
+.content-banner{
+  width:750rpx;
+  height:420rpx;
+}
+
+.conent-banner-warp{
+  width:750rpx;
+  height:420rpx;
+  position: relative
+}
+
+.content-bd{
+  padding:25rpx;
+  display: flex;
+}
+
+.content-title{
+  color:#595757;
+  font-size:34rpx;
+  margin-bottom:10rpx
+}
+
+.content-headImg{
+  width:65rpx;
+  height:65rpx;
+  margin-right:30rpx;
+  margin-top:7rpx
+}
+
+.content-anchor{
+  color:#9fa0a0;
+  font-size:28rpx;
+  margin-bottom:25rpx
+}
+
+.content-source{
+   color:#9fa0a0;
+    font-size:24rpx;
+}

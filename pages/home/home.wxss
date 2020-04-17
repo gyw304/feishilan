@@ -1,0 +1,38 @@
+.bg{
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width:100vw;
+  height:100vh;
+  overflow: hidden
+  
+
+}
+
+.logo{
+  width:459rpx;
+  position: absolute;
+  top:10vh;
+}
+
+.tip{
+  width:425rpx;
+  margin-top:-20vh;
+}
+
+.home_btn{
+  color:#fff;
+  font-size:34rpx;
+  border: 2rpx solid #fff;
+  padding:10rpx 24rpx;
+  border-radius: 50rpx;
+  margin-top:55rpx;
+  animation-delay: 1s;
+  animation-duration: 0.5s
+}
+
+.kp{
+  width:750rpx;
+}

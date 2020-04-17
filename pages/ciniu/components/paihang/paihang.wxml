@@ -1,0 +1,11 @@
+<!--pages/ciniu/components/paihang/paihang.wxml-->
+<scroll-view scroll-y style="height:100%" hidden="{{modalHidden}}">
+  <view class="paihang-content">
+
+    <view class="item" wx:for="{{love_rank}}">
+      <view class="rank">{{index+1}}</view><view class="item-content"><view class="name">{{item.uname}}</view><view class="aixin">{{item.num}}</view></view>
+    </view>
+
+    
+  </view>
+</scroll-view>

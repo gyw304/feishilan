@@ -1,0 +1,13 @@
+<form bindsubmit="formSubmit">
+  <view class="leavebox">
+    <textarea name="content" placeholder="说点什么吧。。。" />
+  </view>
+
+  <block wx:if="{{isAuth}}">
+    <button type="default" form-type='submit' size="default">提交</button>
+  </block>
+
+  <block wx:else>
+    <button  open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 授权 </button>
+  </block>
+</form>

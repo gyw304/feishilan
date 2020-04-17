@@ -1,0 +1,65 @@
+page{
+  font-size:36rpx;
+  background-color: #f0eff5;
+  font-family: -apple-system-font,Helvetica Neue,Helvetica,sans-serif;
+}
+
+
+.notices{
+  background-color: #fff;
+  border-radius: 6rpx;
+  padding:30rpx;
+  font-size:30rpx;
+  margin:20rpx;
+  position: relative
+}
+
+.title{
+  margin-bottom:20rpx
+}
+
+.notice-title{
+  color:#adadad;
+  font-size:28rpx;
+  margin-bottom:10rpx
+}
+
+.notice-title-sys{
+  margin-bottom:20rpx
+}
+
+.notice-date{
+  color:#adadad;
+  font-size:26rpx
+}
+
+.notices .type{
+  font-size:24rpx;
+  color:#adadad;
+  margin-right:10rpx
+}
+
+.state{
+  display: flex;
+  justify-content: space-between;
+  align-items: center
+}
+
+.notices .tip{
+  font-size:24rpx;
+  
+  color:#fff;
+  padding:5rpx 10rpx
+}
+
+.notices .tip.pass{
+background-color: #188f21;
+}
+
+.notices .tip.ing{
+background-color: #e7c248;
+}
+
+.notices .tip.nopass{
+background-color: #b32116;
+}

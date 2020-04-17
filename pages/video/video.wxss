@@ -1,0 +1,9 @@
+page{
+  font-size:36rpx;
+  background-color: #f0eff5;
+  font-family: -apple-system-font,Helvetica Neue,Helvetica,sans-serif;
+}
+.content-video{
+  width:750rpx;
+  height:420rpx;
+}

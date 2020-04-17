@@ -1,0 +1,73 @@
+.banner{
+  width:750rpx;
+  height:420rpx;
+}
+
+.section{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height:250rpx;
+}
+
+.logo{
+  width:156rpx;
+}
+
+.tip{
+  width:540rpx;
+  text-align: center;
+  font-size:20rpx;
+  color:#39b54a;
+  border-bottom:2rpx dashed #39b54a;
+  padding-bottom:33rpx
+}
+
+.nav{
+  width:570rpx;
+  display: flex;
+  margin:0 auto;
+  flex-wrap:wrap;
+  justify-content: center;
+  align-items: center
+}
+
+.nav .item{
+  width:190rpx;
+  display: flex;
+  justify-content: center;
+  height:150rpx;
+  align-items: center
+}
+
+.nav .item image{
+  width:140rpx;
+}
+
+.nav .item view{
+  font-size:14rpx;
+  text-align: center;
+}
+
+.draw_btn{
+  width:243rpx;
+  position: fixed;
+  right:20rpx;
+  bottom:20rpx;
+  -webkit-animation-name: fadeIn;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-delay: 0s;
+  -webkit-animation-direction:alternate;
+}
+
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: .3;
+  }
+  100% {
+    opacity: 1;
+  }
+}

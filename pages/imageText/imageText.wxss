@@ -1,0 +1,12 @@
+/* pages/imageText/imageText.wxss */
+.warp{
+  position: relative;
+}
+
+.zan_btn{
+  position: absolute;
+  left:50%;
+  margin-left:-71rpx;
+  bottom:280rpx;
+  width:142rpx;
+}

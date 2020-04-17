@@ -1,0 +1,22 @@
+<view class="notice-list">
+  <view class="notices" wx:for="{{notices.sys}}">
+    <view class="notice-title-sys">{{item.content}}</view>
+    <view class="notice-date">{{item.add_date}}</view>
+  </view>
+
+  <view class="notices" wx:for="{{notices.user}}">
+    <view class="title">通知</view>
+    <view class="notice-title" wx:if="{{item.type == 1}}">上传文章</view>
+    <view class="notice-title" wx:if="{{item.type == 2}}">上传图片</view>
+    <view class="notice-title" wx:if="{{item.type == 3}}">上传视频</view>
+    <view class="state">
+      <view class="notice-date">{{item.add_date}}</view>
+      <view class="tip pass" wx:if="{{item.checked == 1}}">已通过</view>
+      <view class="tip ing" wx:if="{{item.checked == 0}}">审核中</view>
+      <view class="tip nopass" wx:if="{{item.checked == -1}}">未通过</view>
+    </view>
+    
+  </view>
+
+</view>
+

@@ -1,0 +1,16 @@
+.zhinan-content {
+  padding: 0 20rpx;
+}
+
+.zhinan-content {
+  font-size: 24rpx;
+  color: #666;
+}
+
+.zhinan-content .row {
+  margin-bottom: 20rpx;
+}
+
+.zhinan-content .row .hd {
+  margin-bottom: 10rpx;
+}

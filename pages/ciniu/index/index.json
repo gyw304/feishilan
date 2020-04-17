@@ -1,0 +1,18 @@
+{
+  "usingComponents": {
+    "poster": "plugin://poster/poster",
+    "component-zhinan": "../components/zhinan/zhinan",
+    "component-paihang": "../components/paihang/paihang",
+    "component-juanzeng": "../components/juanzeng/juanzeng",
+    "component-zhishi": "../components/zhishi/zhishi",
+    "component-zhongxin": "../components/zhongxin/zhongxin",
+    "component-nengliang": "../components/nengliang/nengliang",
+    "component-xinyuan": "../components/xinyuan/xinyuan",
+    "component-xinyuanlist": "../components/xinyuanlist/xinyuanlist",
+    "canvas-share": "../../../components/save_img_share/save_img_share",
+    "component-juanzengmulu": "../components/juanzengmulu/juanzengmulu",
+    "component-juanzenglist": "../components/juanzenglist/juanzenglist",
+    "component-xinyuanpaihang": "../components/xinyuanpaihang/xinyuanpaihang",
+    "component-xinyuanjihe": "../components/xinyuanjihe/xinyuanjihe"
+  }
+}

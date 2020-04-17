@@ -1,0 +1,19 @@
+
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height:100vh;
+  flex-direction: column
+}
+
+.er_code{
+  width:344rpx;
+}
+
+text{
+  text-align: center;
+  font-size:30rpx;
+  margin-bottom:10rpx;
+}

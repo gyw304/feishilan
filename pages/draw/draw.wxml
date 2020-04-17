@@ -1,0 +1,102 @@
+<view class="container bg">
+  <image class="title" src='../../image/title.png' mode="widthFix"></image>
+  <view class="canvas-container">
+			<view  animation="{{animationData}}" bindtransitionend="animationend"  class="canvas-content" style="background-image:url({{picture}})">
+				<view class="canvas-list">
+					<view class="canvas-item"  wx:for="{{awardsList}}" wx:key="unique">
+				  		<view class="canvas-item-text" style="-webkit-transform: rotate({{item.turn}});transform: rotate({{item.turn}})"></view>
+					</view>
+				</view>
+			</view>
+      <image bindtap="getLottery" class="canvas-btn {{btnDisabled}}" src='../../image/canvas_button_go_unclick.png' mode="widthFix"></image>
+  </view>
+  <view class="changs">今日还有 {{chanceNum}} 次抽奖机会</view>
+  <text class="tip"> 注：小程序所有活动仅限荷兰皇家菲仕兰（中国）员工参与，活动最终解释权归荷兰皇家菲仕兰（中国）所有</text>
+</view>
+
+
+<form bindsubmit="submitdraw">
+  <view class="crm" wx:if="{{poiltype}}">
+    <view class="crm-flex">
+      <view class="box">
+        <view class="from">
+          
+          <view class='frm'><label>姓名</label><input type="text" name="username" placeholder="请输入您的姓名" /></view>
+          <view class='frm'><label>电话</label><input type="number" name="tel" placeholder="请输入您的电话" /></view>
+          <view class='frm'><label>收货地址</label><input type="text" name="address" placeholder="请输入您的收货地址" /></view>
+          <button class="submit" formType="submit"></button>
+         
+          
+        </view>
+      </view>
+    </view>
+  </view>
+   </form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <view class="turntable">
+<image src='../../image/close.png' mode='widthFix' class="close" bindtap="closeturn"></image>
+<view class="container-pan">
+<form bindsubmit="submitdraw">
+  <view class="crm" wx:if="{{poiltype}}">
+    <view class="crm-flex">
+      <view class="box">
+        <view class="from">
+          
+          <view class='frm'><label>姓名</label><input type="text" name="username" placeholder="请输入您的姓名" /></view>
+          <view class='frm'><label>电话</label><input type="number" name="tel" placeholder="请输入您的电话" /></view>
+          <view class='frm'><label>收货地址</label><input type="text" name="address" placeholder="请输入您的收货地址" /></view>
+          <button class="submit" formType="submit"></button>
+         
+          
+        </view>
+      </view>
+    </view>
+  </view>
+   </form>
+
+  <image class="bg" src='../../image/bg.jpg' mode="scaleToFill"></image>
+
+  <image class="title" src='../../image/title.png' mode="widthFix"></image>
+
+  
+  <view class="canvas-container">
+
+
+			<view  animation="{{animationData}}" bindtransitionend="animationend"  class="canvas-content" style="background-image:url('http://img33.house365.com/M01/71/A7/rBEBp1wXPUGAbvI1AAPmuIRYBsE228.png')">
+
+
+				<view class="canvas-list">
+					<view class="canvas-item"  wx:for="{{awardsList}}" wx:key="unique">
+				  		<view class="canvas-item-text" style="-webkit-transform: rotate({{item.turn}});transform: rotate({{item.turn}})"></view>
+					</view>
+				</view>
+
+				
+			</view>
+
+      <image bindtap="getLottery" class="canvas-btn {{btnDisabled}}" src='../../image/canvas_button_go_unclick.png'></image>
+
+
+  </view>
+
+  <view class="changs">今日还有 {{chanceNum}} 次抽奖机会</view>
+
+
+</view>
+</view> -->

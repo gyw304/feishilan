@@ -1,0 +1,31 @@
+page{
+  background-color: #f7f7f7
+}
+.container{
+  display: flex;
+  justify-content: center;
+  flex-direction: column
+}
+
+.plane{
+  margin-top:50rpx;
+}
+
+.plane .hd{
+  color:#999999;
+  font-size:24rpx;
+  text-align: center
+}
+.plane .bd{
+  background-color: #ffffff;
+  font-size:24rpx;
+  color:#666666;
+  margin:20rpx 80rpx;
+  padding:20rpx 40rpx;
+  border-radius: 20rpx;
+  line-height: 40rpx;
+}
+
+button{
+  margin:30rpx 80rpx 50rpx 80rpx
+}

@@ -1,0 +1,54 @@
+{
+  "pages": [
+
+  
+
+    
+    "pages/index/index",
+    "pages/home/home",
+    "pages/main/main",
+    "pages/special/special",
+    "pages/imageText/imageText",
+    "pages/addMilk/addMilk",
+    "pages/endurance/endurance",
+    "pages/video/video",
+    "pages/article/article",
+    "pages/detail/detail",
+    "pages/leave/leave",
+    "pages/feedback/feedback",
+    "pages/interact/interact",
+    "pages/collect/collect",
+    "pages/notice/notice",
+    "pages/crm/crm",
+    "pages/recruit/recruit",
+    "pages/upload_pic/upload_pic",
+    "pages/upload_video/upload_video",
+    "pages/upload_arc/upload_arc",
+    "pages/collect_order/collect_order",
+    "pages/draw/draw",
+    "pages/er_code/er_code",
+    "pages/jingjie/jingjie",
+
+    "pages/config_page/config_page",
+    "pages/ciniu/index/index",
+    "pages/shop/shop",
+    "pages/shop_detail/shop_detail",
+    "pages/my_aixin/my_aixin",
+    "pages/my_xinyuan/my_xinyuan",
+    "pages/yuantan_video/yuantan_video"
+    
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "菲仕兰境界",
+    "navigationBarTextStyle": "black"
+  },
+  "plugins": {
+    "poster": {
+      "version": "1.2.2",
+      "provider": "wxbf07f0f22c6c200d"
+    }
+  },
+  "sitemapLocation": "sitemap.json"
+}

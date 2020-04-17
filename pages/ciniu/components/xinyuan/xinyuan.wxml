@@ -1,0 +1,20 @@
+<view class="xinyuan_content" hidden="{{modalHidden}}">
+  <view>
+    <input placeholder="请输入你的心愿" cursor-spacing="200" maxlength="22" class="xinyuan_textarea" bindinput="get_textarea_val"  value="{{textarea_text}}"></input>
+  </view>
+
+  <view>
+    <image class="img" mode="aspectFill" src="{{src}}"></image>
+  </view>
+
+  <view class="fabu">
+
+  <view class="b" bindtap="moren">默认背景图</view>
+  
+  <view class="blue_btn" bindtap="formSubmit">发布</view>
+
+  <view class="b" bindtap="upload">上传分享图</view>
+  
+  </view>
+
+</view>

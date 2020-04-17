@@ -1,0 +1,34 @@
+<view class="container">
+
+  <view class="page-head">
+    <view class="page-head-title">上传文章</view>
+    <view class="page-head-line"></view>
+  </view>
+  
+  <form bindsubmit='submit'>
+  <view class="page-body">
+    <view class="page-section">
+
+
+      <textarea name="content" class="page-body-info" maxlength="-1"  placeholder="写点什么吧..." />
+
+      
+    </view>
+
+    <block wx:if="{{isAuth}}">
+      <button class="upload-btn" form-type='submit'>立即上传</button>
+    </block>
+
+    <block wx:else>
+      <button class="upload-btn"  open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 授权 </button>
+    </block>
+
+    
+
+  </view>
+
+  </form>
+
+  
+
+</view>

@@ -1,0 +1,68 @@
+<!--pages/ciniu/components/juanzeng/juanzeng.wxml-->
+
+
+<view style="height:100%" hidden="{{modalHidden}}">
+
+  <view style="height:100%" wx:if="{{!money_info.complete}}">
+    <view class="juanzeng_content" hidden="{{!show}}">
+      <view class="hd">
+        <view class="title">
+          <view class="name">我要捐款</view>
+          <view class="shuoming" bindtap="shuoming">捐款说明</view>
+        </view>
+        <view class="money">
+          <label>￥</label>
+          <input type="digit" bindinput="get_money_val" cursor-spacing="200"  value="{{money_val}}" />
+        </view>
+      </view>
+      <view class="bd">
+
+        <view class="pic" bindtap="upload_img">
+          <image class="upload_img" mode="aspectFill" src="{{imageSrc}}"></image>
+        </view>
+
+
+
+
+        <view class="sub">
+          <view class="tip">注：每月第一次捐款将获得50爱心值。</view>
+
+          <image src="../../../../image/money_btn_1.png" style="width:230rpx;height:80rpx;" bindtap="juanzeng"></image>
+        </view>
+      </view>
+      <view class="ft">
+        我已累计捐款 {{money_info.num}} 次，共计 {{money_info.money}} 元
+      </view>
+
+    </view>
+
+
+
+
+    <view class="shuoming_content" style="height:100%" hidden="{{show}}">
+      <view class="back_juankuan" bindtap="back_juankuan">返回捐款</view>
+      <scroll-view scroll-y style="height:100%;">
+        <view style="padding:0 20rpx;">
+          <rich-text nodes="{{shuoming}}"></rich-text>
+        </view>
+      </scroll-view>
+    </view>
+
+
+  </view>
+
+
+  <view class="complete" wx:else>
+  
+  今日已捐款，请明天再来~
+  
+  </view>
+
+
+
+
+
+
+
+
+</view>

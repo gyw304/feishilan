@@ -1,0 +1,50 @@
+<view class="container">
+
+
+  <swiper style='height:420rpx;' autoplay="true" circular="true" interval="3000" indicator-dots="true" indicator-active-color="#008be0">
+
+
+    <swiper-item wx:for="{{banner}}">
+      <image class="banner" src="{{item.img_url}}" mode='scaleToFill' data-url="{{item.href}}" data-type="{{item.type}}" data-id="{{item._id}}" bindtap="jumppage"></image>
+    </swiper-item>
+
+
+    <!-- <swiper-item>
+      <image class="banner" src="../../image/kv_6.jpg" mode='widthFix' data-url="../detail/detail?cid=37" bindtap="jumppage"></image>
+    </swiper-item>
+
+    <swiper-item>
+      <image class="banner" src="../../image/kv.jpg" mode='widthFix' data-url="../jingjie/jingjie" bindtap="jumppage"></image>
+    </swiper-item>
+
+    <swiper-item>
+      <image class="banner" src="../../image/kv_4.jpg" mode='widthFix' data-url="../detail/detail?cid=34" bindtap="jumppage"></image>
+    </swiper-item>
+    <swiper-item>
+      <image class="banner" src="../../image/kv_3.jpg" mode='widthFix' data-url="../detail/detail?cid=35" bindtap="jumppage"></image>
+    </swiper-item>
+    <swiper-item>
+      <image class="banner" src="../../image/kv_5.jpg" mode='widthFix' data-url="../detail/detail?cid=36" bindtap="jumppage"></image>
+    </swiper-item> -->
+
+  </swiper>
+
+  <!-- <image class="banner" src="../../image/kv.jpg" mode='widthFix'></image> -->
+
+
+
+
+  <view class="section">
+    <image class="logo" src="../../image/logo.png" mode='widthFix'></image>
+    <text class="tip">你既能全方位地了解菲仕兰，还能构建自己的小天地，一起探索菲仕兰的不同境界吧！\n 注：小程序所有活动仅限荷兰皇家菲仕兰（中国）员工参与，活动最终解释权归荷兰皇家菲仕兰（中国）所有</text>
+  </view>
+  <view class="nav">
+    <view wx:for="{{navs}}" wx:key="*this" class="item" data-url="{{item.url}}" bindtap="nav_jumppage">
+      <image src="{{item.ico}}" mode='widthFix'></image>
+    </view>
+  </view>
+</view>
+
+<!-- animated bounceIn infinite -->
+
+<!-- <image  class="draw_btn" src="../../image/draw_btns.png" mode='widthFix' data-url="../draw/draw" bindtap="jumppage"></image> -->

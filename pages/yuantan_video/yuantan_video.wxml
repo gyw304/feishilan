@@ -1,0 +1,12 @@
+<view class="container bg">
+ <video id="myVideo" src="{{src}}" controls object-fit="cover"></video>
+ <!-- <navigator class="old_video" url="/pages/video/video?type=2&title=菲常月谈"> -->
+  <view class="old_video">
+  <image class="old_video_btn" src="../../image/old_video_btn_1.png"></image>
+  </view>
+  
+ <!-- </navigator> -->
+
+  <!-- <image class="no-video" src="../../image/no.jpg" mode="widthFix"></image> -->
+
+</view>

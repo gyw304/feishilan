@@ -1,0 +1,12 @@
+<view class="container bg">
+  <image class="banner" src="../../image/kv.jpg" mode='widthFix'></image>
+  <view class="section">
+    <image class="logo" src="../../image/logo.png" mode='widthFix'></image>
+    <text class="tip">你既能全方位地了解菲仕兰，还能构建自己的小天地，一起探索菲仕兰的不同境界吧！\n 注：小程序所有活动仅限荷兰皇家菲仕兰（中国）员工参与，活动最终解释权归荷兰皇家菲仕兰（中国）所有</text>
+  </view>
+  <view class="nav">
+    <view wx:for="{{navs}}" wx:key="*this" class="item" data-url="{{item.url}}" bindtap="jumppage">
+      <image src="{{item.ico}}" mode='widthFix'></image>
+    </view>
+  </view>
+</view>

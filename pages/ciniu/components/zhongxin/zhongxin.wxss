@@ -1,0 +1,40 @@
+.avatar{
+  width: 100rpx;
+  height: 100rpx;
+  clip-path: circle(50rpx at center);
+  margin-bottom:10rpx;
+}
+.zhongxin_content{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center
+}
+
+.userInfo{
+  text-align: center;
+  font-size:24rpx;
+  color:#666666;
+  margin-top:-70rpx;
+}
+
+.items{
+  margin-top:30rpx;
+}
+
+.item{
+  width:485rpx;
+  height:75rpx;
+  background-color: #faf6f6;
+  border-radius: 10rpx;
+  border-bottom:10rpx solid #f2eeee;
+  display: flex;
+  align-items: center;
+  color:#87421a;
+  font-size:26rpx;
+  margin-bottom:15rpx;
+}
+.item text{
+  margin-left:30rpx;
+}
+

@@ -1,0 +1,10 @@
+<view class="content-list">
+  <view class="content" data-cid="{{item.id}}"  wx:for="{{video_list}}">
+    <video class="content-video" id="{{item.id}}" src="{{item.src}}" controls poster="{{item.poster}}" object-fit="cover"></video>
+    <view class="content-bd">
+      <view>
+        <view class="content-title">{{item.title}}</view>
+      </view>
+    </view>
+  </view>
+</view>

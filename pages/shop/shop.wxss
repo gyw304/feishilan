@@ -1,0 +1,34 @@
+.item_img{
+  background-color: #eeeeee;
+  width:220rpx;
+  height:140rpx;
+  border-radius: 14rpx;
+}
+
+.goods{
+  display: flex;
+  flex-wrap:wrap;
+  
+}
+
+.goods .item{
+margin-left:23rpx;
+margin-bottom:23rpx;
+
+}
+
+.goods .item .price{
+  font-size:24rpx;
+  background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAUCAYAAACXtf2DAAADfUlEQVQ4jZ2U72tbZRTHP/fm5kfbJG3TZok37baubKNldbQwHTiFVTaYDsEpMvGFoL4Y+EYEwQvqCxXqq+EfoC90ihM6faEoTHLHxJUxdBDb0Wazhllym2T5ZdLfaW7k3psm/W3YFx6e89zzPd9zOM95rsA6jAzLJ4G3HaJ0ol1qakuX5lPliv4T8ImiatFN3MPAu7aK8ExnqbInJ5FfEfkNuKio2rU1nlAlG/vFo63db508cByXb4/prOSzTE/d4ur8/VKB1VcVVfumyn/Zi/TF6XmXvTc6i5Avmvyldg/Xej1EvHxqFKqoWmUtwUengwPvDfU/CYIAehkm/4RE3ApE52sS+gNKZ42zH/uPrxAUXYhWmck0TE6Drpsl3+4PcjUgfqyo2vvCyLDcf8gdGD937JyIWA2I3IJ0an1HyLPK52gzhv06cncb0gY/mRxEpixbFPju2CP63RYGDMU3T+1/3BKXZbhwAUIhNsMQHMLTbawt4gY62iHQadl6hVOxBVNbcoi2M55O2XL09ECrFxYWtgoAj+Hd9nsNXUGrXYAnU8ChN58RA07vXmw2izI2Buefh3vRbeNbsJlrR3jdZntMlHUCy+wVJcFWj1hegmxm9yp3gzEgUr19UgWbmCvN52tfbLtU1yjKeo2Ys5MX86XFCX1psZpAAofz4cVXSlAum6bucpC3M2Hc9PVcJl4ntfkePkG+UK++w21s140El8bi43VScOuINoxEusYck13Gdkk0/jF3itpoIfmP5fEHwf0/47gd5hYgnTUdhUAbdzyMGtrVp8s7l6Phudpd9D1qTUSjqFRgatpkG72/fKh5ztA0zubYhGPF/BP7XJOpbPylvsBBQWhuAacL0snGUkT/hnSOil3i+0G/HndxXlG1m7UE1SRTg13i/UR65rm+jv2C4PNbSTKpnYWNyqMx0FLoTU6uDPr1v1p4TVG1b9coGwY/HCtGhrpsv0/MRs/2SG5Xc9cBaPVBLg3l1Y3iyyswfhceZEiHfHx5xPvvrJMXFVUbXU/b8rLCseK9E/uavrqdmT5YzCYOd7eHkHr7QF+FuYL1kOJJmIiy5JT45UgnP4ekH5ZFnlVU7Y/Nerve5Miw/DTwwYA39NRxeQDfTBJu3CDrErkpOxn3Cr8CHyqqFt5Jo6FRGRmWjwJvNCG+YJwX0a8AnymqFtk1EPgPSd86guXpDWIAAAAASUVORK5CYII=');
+background-repeat: no-repeat;
+background-size: 24rpx 20rpx;
+background-position: 0 center;
+padding-left:30rpx;
+color:#999999;
+margin-top:10rpx;
+}
+
+.goods .item .price text{
+  color:#ff4239;
+}
+

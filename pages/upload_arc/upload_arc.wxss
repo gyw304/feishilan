@@ -1,0 +1,65 @@
+
+page{
+  height:100%
+}
+
+.image {
+  width: 100%;
+  height: 360rpx;
+}
+
+.page-body{
+  flex:1
+}
+
+.page-section{
+  display: flex;
+}
+
+.page-body-info {
+  flex:1;
+  height: 420rpx;
+  border-top: 1rpx solid #D9D9D9;
+  border-bottom: 1rpx solid #D9D9D9;
+  padding:30rpx;
+  background-color: #fff
+}
+
+
+
+.page-head{
+  padding:60rpx 50rpx 80rpx;
+  text-align:center;
+}
+
+.page-head-line{
+  margin:0 auto;
+  width:150rpx;
+  height:2rpx;
+  background-color:#D8D8D8;
+}
+
+.page-head-title{
+  display:inline-block;
+  padding:0 40rpx 20rpx 40rpx;
+  font-size:32rpx;
+  color:#BEBEBE;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height:100%
+}
+
+.upload-btn{
+  margin:50rpx 50rpx 0;
+  height:100rpx;
+  background-color: #c73734;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color:#fff;
+  border-radius: 10rpx;
+  border-bottom: 8rpx solid #a22624
+}

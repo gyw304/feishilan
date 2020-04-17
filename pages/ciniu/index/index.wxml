@@ -1,0 +1,99 @@
+<view class="container bg">
+
+  
+
+  <image class="yun" src="../../../image/yun.png" mode="widthFix"></image>
+  <view class="yezi">
+  
+  <image class="yezi_left" src="../../../image/yezi_left.png" mode="widthFix"></image>
+  <image class="yezi_right" src="../../../image/yezi_right.png" mode="widthFix"></image>
+  
+  </view>
+  <image class="shui" src="../../../image/shui.png" mode="widthFix"></image>
+
+
+
+  <view class="total">
+    <text class="total_text">{{user.total}}</text>
+    <text class="fix_text {{user.paopao.piao == true ?'piao':''}}">+{{user.paopao.num}}</text>
+    <text class="fix_text {{user.jinai.piao == true?'piao':''}}">+{{user.jinai.num}}</text>
+    <text class="fix_text {{question.piao == true?'piao':''}}">+{{question.num}}</text>
+  </view>
+
+  <view class="right_tools">
+    <image class="xinyuan" src="../../../image/xinyuan.png" mode="widthFix" data-type="content_xinyuan" data-name="我的心愿" data-nametip="发布心愿" bindtap="pop_show"></image>
+    <image class="jihe" src="../../../image/jihe.png" mode="widthFix" data-type="content_xinyuanjihe" data-name="心愿集合" data-nametip="心愿集合" bindtap="pop_show"></image>
+    <image class="xinyuanpaihang" src="../../../image/xinyuanpaihang.png" mode="widthFix" data-type="content_xinyuanpaihang" data-name="心愿排行" data-nametip="心愿排行" bindtap="pop_show"></image>
+    <image class="paihang" src="../../../image/paihang.png" mode="widthFix" data-type="content_paihang" data-name="排行榜" data-nametip="爱心能量排行榜" bindtap="pop_show"></image>
+    <image class="juanzeng" src="../../../image/juanzeng.png" mode="widthFix" data-type="content_juanzengmulu" data-name="捐款" data-nametip="" bindtap="pop_show"></image>
+  </view>
+
+  
+
+  <image class="zhinan" src="../../../image/zhinan.png" mode="widthFix" data-type="content_zhinan" data-name="饲养指南" data-nametip="饲养指南" bindtap="pop_show"></image>
+
+  <image class="niu" src="../../../image/niu.png" mode="widthFix"></image>
+  <view wx:if="{{!user.paopao.paopao_complete}}" class="paopao {{user.paopao.piao == true?'dead':''}}" style="margin-left:{{paopao.rud_pos[paopao.rnd].x}}rpx;bottom:{{paopao.rud_pos[paopao.rnd].y}}rpx;" bindtap="clickpaopao">{{user.paopao.num}}</view>
+  <image class="jinai" src="../../../image/jinai.png" mode="widthFix" bindtap="jinai"></image>
+  <image class="zhishi" src="../../../image/zhishi.png" mode="widthFix" data-type="content_zhishi" data-name="牧场小知识" data-nametip="牧场小知识" bindtap="pop_show"></image>
+  <image class="gerenzhongxin" src="../../../image/gerenzhongxin.png" mode="widthFix" data-type="content_nengliang" data-name="个人中心" data-nametip="" bindtap="pop_show"></image>
+
+  <view class="pop" hidden="{{pop}}">
+
+    <view class="win">
+
+      <image class="close" src="../../../image/close.png" mode="widthFix" bindtap="pop_hide"></image>
+
+      <image class="c_ico" src="../../../image/w_{{pop_ico}}_ico.png" mode="widthFix"></image>
+
+      <view class="name">{{pop_name}}</view>
+
+      <view class="name_small">{{pop_name_tip}}</view>
+
+      <view class="w-content">
+
+        <component-zhinan  modal-hidden="{{pop_win_content_type != 'content_zhinan'}}"></component-zhinan>
+        <component-paihang  modal-hidden="{{pop_win_content_type != 'content_paihang'}}"></component-paihang>
+        <component-juanzeng  modal-hidden="{{pop_win_content_type != 'content_juanzeng'}}"></component-juanzeng>
+        <component-zhishi  bind:subAsk='subAsk' modal-hidden="{{pop_win_content_type != 'content_zhishi'}}"></component-zhishi>
+        
+        <component-zhongxin  bind:changeNengLiang='changeNengLiang'   modal-hidden="{{pop_win_content_type != 'content_zhongxin'}}"></component-zhongxin>
+        
+        <component-nengliang   modal-hidden="{{pop_win_content_type != 'content_nengliang'}}"></component-nengliang>
+        <component-xinyuan  bind:toXinYuanList="toXinYuanList" bind:comImg='comImg'   modal-hidden="{{pop_win_content_type != 'content_xinyuan'}}"></component-xinyuan>
+        <component-xinyuanlist   modal-hidden="{{pop_win_content_type != 'content_xinyuanlist'}}"></component-xinyuanlist>
+        <component-juanzengmulu bind:toJuanZeng='toJuanZeng' bind:toJuanZengList='toJuanZengList' modal-hidden="{{pop_win_content_type != 'content_juanzengmulu'}}"></component-juanzengmulu>
+        <component-juanzenglist modal-hidden="{{pop_win_content_type != 'content_juanzenglist'}}"></component-juanzenglist>
+        <component-xinyuanpaihang modal-hidden="{{pop_win_content_type != 'content_xinyuanpaihang'}}"></component-xinyuanpaihang>
+        <component-xinyuanjihe modal-hidden="{{pop_win_content_type != 'content_xinyuanjihe'}}"></component-xinyuanjihe>
+
+
+      </view>
+
+
+    </view>
+
+  </view>
+
+
+  <view class="cover-zhiyin" hidden="{{!guld}}" bindtap="guld_tap">
+     <image class="hand" src="../../../image/hand.png" mode="widthFix"></image>
+  </view>
+
+  <view class="share-img-area" hidden="{{!share_img}}">
+    <view class="share-pic-box">
+      <view class="box">
+      
+      <image mode="widthFix" src="{{share_img_src}}"></image>
+      <view class="tip">菲仕兰 . 慈牛认养计划</view>
+      
+      </view>
+      <view class="blue_btn" bindtap="save_img">保存图片</view>
+    </view>
+  </view>
+
+  
+
+
+</view>
+

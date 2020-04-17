@@ -1,0 +1,9 @@
+<!--指南-->
+<scroll-view scroll-y style="height:100%;" hidden="{{modalHidden}}">
+  <view class="zhinan-content">
+    
+    <rich-text nodes="{{content}}"></rich-text>
+
+  </view>
+</scroll-view>
+<!--指南-->

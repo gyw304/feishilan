@@ -1,0 +1,105 @@
+
+page{
+  background-color: #f7f7f7
+}
+
+image{
+  vertical-align: top;
+}
+
+.section{
+  background-color: #fff;
+  margin-top:20rpx;
+  border-top:2rpx solid #d9d9db;
+  border-bottom:2rpx solid #d9d9db
+}
+
+.inf{
+  display: flex;
+  justify-content: center;
+}
+
+.inf_num{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height:170rpx;
+  flex: 1
+}
+
+.inf_num .num{
+  font-size:60rpx
+}
+
+.inf_num .tt{
+  font-size:30rpx
+}
+
+.inf .line{
+  width:2rpx;
+  background-color: #d9d9db;
+  margin:20rpx 0
+}
+
+.action{
+  height:120rpx;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom:2rpx solid #d9d9db;
+  margin:0 0 0 30rpx
+}
+
+.action:last-child{
+  border-bottom: none
+}
+
+.action .arr{
+  width:40rpx;
+  height:40rpx;
+  margin-right:20rpx
+}
+
+.int_ico{
+  width:40rpx;
+  height:40rpx;
+  margin-right:10rpx
+}
+
+.plane{
+  background-color: #ffffff;
+  width:560rpx;
+  margin:0 auto;
+  border-radius: 20rpx;
+}
+.plane .item{
+  display: flex;
+  height:115rpx;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom:1rpx solid #d0d0d0
+}
+.plane .item:last-child{
+  border:none
+}
+.plane .item .ico{
+  width:48rpx;
+  height:48rpx;
+  margin-left:20rpx;
+}
+.plane .item .arr{
+  width:12rpx;
+  height:20rpx;
+  margin-right:20rpx;
+}
+.plane .item .name{
+  font-size:24rpx;
+  color:#87421a;
+  display: flex;
+  align-items: center
+}
+.plane .item .name image{
+  margin-right:20rpx;
+}
+
